@@ -1,0 +1,507 @@
+pytorch1.10:åô
+Ü
+input_image
+enhance.out_conv.0.weight
+enhance.out_conv.0.bias7Conv_0"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2”/usr/local/lib/python3.7/dist-packages/torch/nn/modules/conv.py(443): _conv_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/conv.py(446): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py(141): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(17): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+Â
+78Relu_1"Relu2Œ/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py(1299): relu
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/activation.py(98): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py(141): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(17): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+¸
+8
+enhance.out_conv.2.weight
+enhance.out_conv.2.bias9Conv_2"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2”/usr/local/lib/python3.7/dist-packages/torch/nn/modules/conv.py(443): _conv_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/conv.py(446): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py(141): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(17): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+Ê
+910Relu_3"Relu2Œ/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py(1299): relu
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/activation.py(98): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py(141): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(17): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+˛
+10
+enhance.out_conv.4.weight
+enhance.out_conv.4.bias11Conv_4"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2”/usr/local/lib/python3.7/dist-packages/torch/nn/modules/conv.py(443): _conv_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/conv.py(446): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py(141): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(17): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+§
+1112	Sigmoid_5"Sigmoid2Ö/usr/local/lib/python3.7/dist-packages/torch/nn/modules/activation.py(291): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py(141): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(17): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+¨
+12
+input_image13Add_6"Add2à/content/SCI/model_test.py(18): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+©
+13
+25
+2618Clip_7"Clip2à/content/SCI/model_test.py(19): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/content/SCI/model_test.py(31): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+Ÿ
+input_image
+1819Div_8"Div2µ/content/SCI/model_test.py(32): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+
+‡
+19
+27
+28output_imageClip_9"Clip2µ/content/SCI/model_test.py(33): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1090): _slow_forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(118): wrapper
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(132): forward
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py(1102): _call_impl
+/usr/local/lib/python3.7/dist-packages/torch/jit/_trace.py(1166): _get_trace_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(388): _trace_and_get_graph_from_model
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(437): _create_jit_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(493): _model_to_graph
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(729): _export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/utils.py(111): export
+/usr/local/lib/python3.7/dist-packages/torch/onnx/__init__.py(320): export
+<ipython-input-5-8d853b833878>(14): convert_to_onnx
+<ipython-input-6-243dc34d324a>(5): <module>
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2882): run_code
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2828): run_ast_nodes
+/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py(2718): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py(537): run_cell
+/usr/local/lib/python3.7/dist-packages/ipykernel/ipkernel.py(208): do_execute
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(399): execute_request
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(233): dispatch_shell
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelbase.py(283): dispatcher
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(431): _run_callback
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(481): _handle_recv
+/usr/local/lib/python3.7/dist-packages/zmq/eventloop/zmqstream.py(452): _handle_events
+/usr/local/lib/python3.7/dist-packages/tornado/stack_context.py(300): null_wrapper
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(122): _handle_events
+/usr/lib/python3.7/asyncio/events.py(88): _run
+/usr/lib/python3.7/asyncio/base_events.py(1786): _run_once
+/usr/lib/python3.7/asyncio/base_events.py(541): run_forever
+/usr/local/lib/python3.7/dist-packages/tornado/platform/asyncio.py(132): start
+/usr/local/lib/python3.7/dist-packages/ipykernel/kernelapp.py(499): start
+/usr/local/lib/python3.7/dist-packages/traitlets/config/application.py(846): launch_instance
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py(16): <module>
+/usr/lib/python3.7/runpy.py(85): _run_code
+/usr/lib/python3.7/runpy.py(193): _run_module_as_main
+torch-jit-export*ÏBenhance.out_conv.0.weightJƒIz#æL%>V˜DΩ© Ö>cí?åO=NÑ7Ωù2>È!#æx…Øºﬂ	|=ï
+=€ï<Â%?DÊ4=KYΩõë<>=ïº©–Ó=@ÌrΩÆÿ>‚¬óæÆRΩrë=ÿUaΩHÅXæH’=ÁmzΩíìæpä¿Ω·•ö>…È4?dEãæ{Aï=€n†<ºqΩ§èÛº†yÜΩ<};ˇ£=j·?µ/æxÈK<µ®ΩóJñ<ÿi=Çﬂ„<ÉG>Ì6æú†ﬂ>ˇÀ…ºˇK¥Ω®\Hæ≥é=J‘¶=©¶‡=∑ >ßïæ≤@7>¿6á<∂Ωzweætú⁄=˙èÙ;¡rÉ=˝JΩ}T±ΩN—?Ò£<nC≠;˜øÌΩÚïkΩw˛;|÷%>ƒÇæ—∂ö><í¶?"eë=πzˆ=5#ì=4ﬁqæ*+Benhance.out_conv.0.biasJd”è=íDæ®∏^=*ÏBenhance.out_conv.2.weightJƒn»óΩ6 —=S’Ûº1T˝=◊‚◊>¶å°<’ æ›¡Ω˛≥Ω«1Bæ¢ìB;ﬂ/â=¬≠›Ω4h?Y®à>zËıΩ‹~æchî=›	æ≥ 6æJNsºá	®<◊S˚>˜†≠ºû =ODÆ>äA.>p~¬Ωclû>"ÁÊºK">Ä"J?,>ÌŸ⁄ºI>á?æÀ)Ω¨>;î¶=å∑¶ΩtE"?ÆÅ>9H‡<;≠=¬¡ΩΩ=Nóñæ%mèΩ‰÷ö=áåÅΩJ*æÔµ=º¿>@É=˘3™<}‚æ+Ÿæ∫‘òΩí[>ÙÁæÈ≤>^ˇW>ïΩí=w1>≥G¢æN¸MΩO/QæB„3?™q”=6)=F>›@ÁªÒmΩˆ¨0ΩL8P>j$;ªé£?€`∫==•æ˜¸_>ªÌæ*+Benhance.out_conv.2.biasJ§°=Úqù=p§L>*ÏBenhance.out_conv.4.weightJƒØu´ΩaRS>¿ƒQ>†IqΩ«‰*ø2t2æò£;Sæ– Õ</òÓ=®¸ÄæÔSg<ª˜ºâø‡yûæ≥≥≥=	ôÆæî˘7ª8õcΩºÖ
+æ·–íΩ…+Ò=f:—æ’æë>§ºDÎ˘>ÓõºPíΩb_º_=$=ã"æΩ—Sø∑ΩætÊºª,tΩx,S=óa∫8›æSÁº‡õoΩ.™Áæ>æ˙Ø«;5†ñΩ´cÜºäêP=LæP†¡<n¥;‰tgøsÔ•=V\È;sΩg>ÌäΩÀñΩ{s]æŸæU'æ‡+Ææáw&ºπa÷Ω"¥r= Ií=≠ÕÎΩõ√ıºvtßΩâ‘˜º˚IÄ>‡Ë=ßΩÄΩd^n>E_ΩCU>ÕÚΩW=‰=VÂ∂Ω|º∞ø£Õ⁄Ω5õ<ß§Ω⁄≥æ*+Benhance.out_conv.4.biasJO‡LΩÄ~æH5$æ*B25J∑—8*B26J  Ä?*B27J    *B28J  Ä?Z'
+input_image
+
+
+
+Ä
+Äb(
+output_image
+
+
+
+Ä
+ÄB
