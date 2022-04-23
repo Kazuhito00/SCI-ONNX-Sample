@@ -1,5 +1,5 @@
 # SCI-ONNX-Sample
-[SCI](https://github.com/tengyu1998/SCI)のPythonでのONNX推論サンプルです。<br>
+Low-Light Image Enhancementモデルである[SCI](https://github.com/tengyu1998/SCI)のPythonでのONNX推論サンプルです。<br>
 ONNXに変換したモデルも同梱しています。変換自体を試したい方は[Convert2ONNX.ipynb](Convert2ONNX.ipynb)を使用ください。<br>
 
 https://user-images.githubusercontent.com/37477845/164886829-7a2ad37c-8ba2-4085-904b-bd17ad8431b2.mp4
