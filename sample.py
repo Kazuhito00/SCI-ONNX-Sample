@@ -23,7 +23,7 @@ def run_inference(onnx_session, input_size, image):
     result = onnx_session.run(None, {input_name: input_image})
 
     # Post process:squeeze, RGB->BGR, Transpose, uint8 cast
-    output_image = np.squeeze(result[0])
+    output_image = np.squeeze(result[1])
     output_image = output_image.transpose(1, 2, 0)
     output_image = np.clip(output_image * 255.0, 0, 255)
     output_image = output_image.astype(np.uint8)
@@ -40,7 +40,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default='model/sci_512x512.onnx',
+        default='model/sci_difficult_512x512.onnx',
     )
     parser.add_argument(
         "--input_size",
