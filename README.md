@@ -22,7 +22,7 @@ python sample.py
 デフォルト：指定なし
 * --model<br>
 ロードするモデルの格納パス<br>
-デフォルト：model/sci_512x512.onnx
+デフォルト：model/sci_difficult_512x512.onnx
 * --input_shape<br>
 モデルの入力サイズ<br>
 デフォルト：512,512
